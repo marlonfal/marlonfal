@@ -263,3 +263,45 @@ footer {
 .socialnet {
     color: white;
 }
+
+.avatar {
+    transition: transform .2s;
+}
+
+.avatar:hover {
+    transform: scale(1.2);
+    
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+.col-md-3 {
+    padding: 2px !important;
+}
+
+.card {
+    width: 99%;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    min-height: 150px;
+    border: 1px solid rgb(223, 223, 223);
+    box-shadow: 4px 4px 8px 3px rgba(0,0,0,0.2);
+    text-align: center;
+    transition: 0.3s;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+    border-radius: 5px 5px 0 0;
+}
